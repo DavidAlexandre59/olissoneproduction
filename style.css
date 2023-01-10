@@ -55,7 +55,7 @@ nav ul li a {
 
 .content h1 {
     font-size: 160px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     transition: 0.5s;
 }
