@@ -147,7 +147,6 @@ nav ul li a {
         /* 12% de la taille de police globale */
     }
 }
-
 /* styles pour smartphone */
 @media screen and (max-width: 767px) {
     .content h1 {
@@ -169,4 +168,9 @@ nav ul li a {
         font-size: 1em;
         /* 10% de la taille de police globale */
     }
+    
+    nav .logo {
+    width: 150px;
+
+}
 }
