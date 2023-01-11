@@ -169,4 +169,10 @@ nav ul li a {
         font-size: 1em;
         /* 10% de la taille de police globale */
     }
+    
+    nav .logo {
+    width: 150px;
+
 }
+}
+

@@ -181,12 +181,18 @@ nav ul li a {
         font-size: 1em;
         /* 10% de la taille de police globale */
     }
+    
+    nav .logo {
+    width: 150px;
+
+}
+}
 
     .grid-container {
         grid-template-columns: 1fr; /* une seule colonne pour les écrans plus petits */
         grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); /* utiliser minmax pour que les cellules de la grille ne dépassent pas une certaine hauteur */
       }
-    }
+    
 
 
 .container2 {
