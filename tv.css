@@ -227,3 +227,44 @@ nav ul li a {
 .grid-container iframe {
     width: 100%; /* pour que la vidéo remplisse la cellule */
 }
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    float: none;
+    width: 200px;
+}
+
+nav ul ul a {
+    padding: 10px;
+    color: white;
+}
