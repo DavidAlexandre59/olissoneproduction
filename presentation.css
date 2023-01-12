@@ -55,6 +55,7 @@ nav ul li a {
 
 .content {
     text-align: center;
+    
 }
 
 .content h1 {
@@ -78,6 +79,7 @@ nav ul li a {
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+   
 
 }
 
@@ -219,6 +221,5 @@ nav ul ul a {
     padding: 10px;
     color: white;
 }
-
 
 
