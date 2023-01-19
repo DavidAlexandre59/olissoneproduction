@@ -68,6 +68,7 @@ nav ul li a {
     animation: animate 20s infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(44, 91, 160, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 
 }
 
