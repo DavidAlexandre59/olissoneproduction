@@ -54,23 +54,44 @@ nav ul li a {
 }
 
 .content h1 {
-    font-size: 160px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    transition: 0.5s;
+   
+   
+
+    position: relative;
+    font-family: Geneva, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: animate 20s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(44, 91, 160, 0);
+
 }
 
-.content h1:hover {
-    -webkit-text-stroke: 2px #fff;
-    color: transparent;
+@keyframes animate {
+    0% {
+      background-position: -2550%;
+    }
+    100% {
+      background-position: 550%;
+    }
+  }
+
+content h1 {
+
+ 
+
 }
 
 .content a {
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: rgb(185, 174, 187);
     font-size: 24px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(33, 5, 59);
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
@@ -216,3 +237,106 @@ nav ul ul a {
     padding: 10px;
     color: white;
 }
+
+
+
+
+
+
+
+/*cODE SUIVANT POUR TEST BURGER a virer si besoin
+
+nav {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+nav.show {
+    display: block;
+}
+
+nav {
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .burger-btn {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        font-size: 24px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px)
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  footer h3 {
+    color: #00c9ff; /* bleu turquoise */
+  }
+  
+  footer ul {
+    color: #8a44e0; /* mauve */
+  }
+  
+  footer a {
+    color: #ff0000; /* rouge */
+  }
+  
+  footer .copyright {
+    color: #8a44e0; /* mauve */
+  }
+  
