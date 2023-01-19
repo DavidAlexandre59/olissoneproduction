@@ -340,3 +340,31 @@ footer {
     color: #8a44e0; /* mauve */
   }
   
+
+  header nav ul li a:hover {
+    background-color: #6C63FF; /* couleur de fond lorsque la souris passe dessus */
+    color: #fff; /* couleur du texte lorsque la souris passe dessus */
+  }
+
+  header nav ul li a {
+    border-radius: 50%; /* pour avoir un contour ovale */
+    transition: all 0.3s ease; /* pour faire varier les couleurs en utilisant des transitions */
+  }
+  header nav ul li a:hover {
+    background-color: #6C63FF; /* couleur de fond lorsque la souris passe dessus */
+    color: #fff; /* couleur du texte lorsque la souris passe dessus */
+    border: 2px solid #fff; /* pour ajouter un contour blanc autour de l'élément lorsque la souris passe dessus */
+  }
+
+  header nav ul li a {
+    border-radius: 50%; /* pour avoir un contour ovale */
+    background-color: #6C63FF; /* couleur de fond par défaut */
+    color: #fff; /* couleur du texte par défaut */
+    transition: all 0.3s ease; /* pour faire varier les couleurs en utilisant des transitions */
+  }
+  header nav ul li a:hover {
+    background-color: #ff0099; /* nouvelle couleur de fond lorsque la souris passe dessus */
+    color: #fff; /* nouvelle couleur du texte lorsque la souris passe dessus */
+    border: 2px solid #fff; /* pour ajouter un contour blanc autour de l'élément lorsque la souris passe dessus */
+  }
+  
