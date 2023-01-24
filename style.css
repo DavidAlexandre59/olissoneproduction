@@ -191,7 +191,7 @@ content h1 {
     }
 
     .content a {
-        font-size: 1em;
+        font-size: 0.1em;
         /* 10% de la taille de police globale */
     }
     
