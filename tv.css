@@ -172,13 +172,13 @@ nav ul li a {
         /* 8% de la taille de police globale */
     }
 
-    nav ul li a {
-        font-size: 1.2em;
+   nav ul li a {
+        font-size: 0.6em;
         /* 12% de la taille de police globale */
     }
 
     .content a {
-        font-size: 1em;
+        font-size: 1.2em;
         /* 10% de la taille de police globale */
     }
     
