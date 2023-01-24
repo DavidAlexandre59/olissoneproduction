@@ -186,35 +186,7 @@ content h1 {
     }
 
     nav ul li a {
-        font-size: 0.5em;
-        /* 12% de la taille de police globale */
-    }
-
-    .content a {
-        font-size: 0.5em;
-        /* 10% de la taille de police globale */
-    }
-    
-    nav .logo {
-    width: 150px;
-
-}
-}
-
-/* styles pour apple watch */
-@media screen and (max-width: 197px) {
-    .content h1 {
-        font-size: 0.1em;
-        /* 20% de la taille de police globale */
-    }
-
-    .content p {
-        font-size: 0.1em;
-        /* 8% de la taille de police globale */
-    }
-
-    nav ul li a {
-        font-size: 0.1em;
+        font-size: 1.2em;
         /* 12% de la taille de police globale */
     }
 
@@ -224,9 +196,92 @@ content h1 {
     }
     
     nav .logo {
-    width: 20px;
+    width: 150px;
 
 }
+
+ul{
+    list-style: none;
+    font-weight: bolder;
+}
+
+
+header{
+    width:100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid rgb(190, 151, 20);
+}
+li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+li:hover{
+    background-color: white;
+    
+}
+nav {
+    float: right;
+    padding: 15px;
+}
+
+#logo{
+    margin: 20px;
+    float: left;
+    width: 200px;
+}
+
+#icon-menu{
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+   
+}
+
+@media only screen and (max-width:650px){
+    header{
+        position: absolute;
+    }
+
+    #icon-menu{
+        visibility: visible;
+       background-color:rgb(190, 151, 20);
+     
+      
+    }
+    #icon-menu:hover{
+        visibility: visible;
+       
+      
+    }
+    nav ul, nav:active ul {
+        display:none;
+        position: absolute;
+        padding: 20px;
+        background: white;
+        right: 10px;
+        top: 35px;
+        width: 35%;
+       
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+    }
+li:hover{
+        color:rgb(190, 151, 20) ;
+}
+}
+
+
 }
 
 nav ul {
@@ -275,71 +330,12 @@ nav ul ul a {
 
 
 
-/*cODE SUIVANT POUR TEST BURGER a virer si besoin
-
-nav {
-    display: block;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        display: none;
-    }
-}
-
-nav.show {
-    display: block;
-}
-
-nav {
-    transition: all 0.5s ease-in-out;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 10px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .burger-btn {
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 999;
-        font-size: 24px;
-        padding: 10px 15px;
-        border: none;
-        background-color: #000;
-        color: #fff;
-        cursor: pointer;
-    }
-}
-
-*/
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background:  linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    background-color: transparent;
     text-align: center;
   }
   
@@ -350,7 +346,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    background-color: transparent;
     text-align: center;
   }
   
@@ -369,3 +365,9 @@ footer {
   footer .copyright {
     color: #8a44e0; /* mauve */
   }
+  
+
+
+
+
+ 
