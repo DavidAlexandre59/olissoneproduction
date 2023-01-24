@@ -274,7 +274,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
+    background-color:  linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
     text-align: center;
   }
   
@@ -285,7 +285,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
     text-align: center;
   }
   
