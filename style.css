@@ -324,6 +324,7 @@ footer {
     width: 100%;
     background-color: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
     text-align: center;
+      background: linear-gradient(to right, #40E0D0, #7F00FF);
   }
   
   footer h3 {
