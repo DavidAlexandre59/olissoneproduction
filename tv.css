@@ -268,3 +268,39 @@ nav ul ul a {
     padding: 10px;
     color: white;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px)
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  footer h3 {
+    color: #00c9ff; /* bleu turquoise */
+  }
+  
+  footer ul {
+    color: #8a44e0; /* mauve */
+  }
+  
+  footer a {
+    color: #ff0000; /* rouge */
+  }
+  
+  footer .copyright {
+    color: #8a44e0; /* mauve */
+  }
