@@ -201,6 +201,34 @@ content h1 {
 }
 }
 
+/* styles pour apple watch */
+@media screen and (max-width: 197px) {
+    .content h1 {
+        font-size: 0.1em;
+        /* 20% de la taille de police globale */
+    }
+
+    .content p {
+        font-size: 0.1em;
+        /* 8% de la taille de police globale */
+    }
+
+    nav ul li a {
+        font-size: 0.1em;
+        /* 12% de la taille de police globale */
+    }
+
+    .content a {
+        font-size: 1em;
+        /* 10% de la taille de police globale */
+    }
+    
+    nav .logo {
+    width: 20px;
+
+}
+}
+
 nav ul {
     list-style: none;
     margin: 0;
