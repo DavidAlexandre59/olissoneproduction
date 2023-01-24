@@ -194,11 +194,44 @@ nav ul li a {
     font-size: 1em;
     /* 10% de la taille de police globale */
 }
-}
 
-/* Ajout de l'arrière-plan dégradé dans le footer */
+
 footer {
-background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
-    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    text-align: center;
+    background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+  }
   
-}
+  @media (min-width: 768px)
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    text-align: center;
+      background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+  }
+  
+  footer h3 {
+    color: #00c9ff; /* bleu turquoise */
+  }
+  
+  footer ul {
+    color: #8a44e0; /* mauve */
+  }
+  
+  footer a {
+    color: #ff0000; /* rouge */
+  }
+  
+  footer .copyright {
+    color: #8a44e0; /* mauve */
+  }
+
+
