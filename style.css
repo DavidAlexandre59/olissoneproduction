@@ -198,5 +198,7 @@ nav ul li a {
 
 /* Ajout de l'arrière-plan dégradé dans le footer */
 footer {
-background: linear-gradient(to right, #40E0D0, #7F00FF);
+background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+    
+  
 }
