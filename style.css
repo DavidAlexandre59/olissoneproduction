@@ -119,229 +119,84 @@ content h1 {
 }
 
 @media (max-aspect-ratio: 16/9) {
-    .back-video {
-        width: auto;
-        height: 100%;
-
-    }
+.back-video {
+width: auto;
+height: 100%;
 
 }
+}
 
-/* styles pour ordinateur */
+/* styles pour ordinateur /
 @media screen and (min-width: 1024px) {
-    .content h1 {
-        font-size: 5.5em;
-        /* 35% de la taille de police globale */
-    }
-
-    .content p {
-        font-size: 1.2em;
-        /* 12% de la taille de police globale */
-    }
-
-    nav ul li a {
-        font-size: none;
-        /*20% de la taille de police globale */
-    }
-
-    .content a {
-        font-size: 1.5em;
-        /* 15% de la taille de police globale */
-    }
+.content h1 {
+font-size: 5.5em;
+/ 35% de la taille de police globale */
 }
 
-/* styles pour tablette */
+.content p {
+    font-size: 1.2em;
+    /* 12% de la taille de police globale */
+}
+
+nav ul li a {
+    font-size: none;
+    /*20% de la taille de police globale */
+}
+
+.content a {
+    font-size: 1.5em;
+    /* 15% de la taille de police globale */
+}
+}
+
+/* styles pour tablette /
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .content h1 {
-        font-size: 2.5em;
-        /* 25% de la taille de police globale */
-    }
-
-    .content p {
-        font-size: 1em;
-        /* 10% de la taille de police globale */
-    }
-
-    nav ul li a {
-        font-size: none;
-        /* 15% de la taille de police globale */
-    }
-
-    .content a {
-        font-size: 1.2em;
-        /* 12% de la taille de police globale */
-    }
+.content h1 {
+font-size: 4em;
+/ 25% de la taille de police globale */
 }
 
-/* styles pour smartphone */
+.content p {
+    font-size: 1em;
+    /* 10% de la taille de police globale */
+}
+
+nav ul li a {
+    font-size: none;
+    /*15% de la taille de police globale */
+}
+
+.content a {
+    font-size: 1.3em;
+    /* 13% de la taille de police globale */
+}
+}
+
+/* styles pour mobile /
 @media screen and (max-width: 767px) {
-    .content h1 {
-        font-size: 2em;
-        /* 20% de la taille de police globale */
-    }
+.content h1 {
+font-size: 3em;
+/ 20% de la taille de police globale */
+}
 
-    .content p {
-        font-size: 0.8em;
-        /* 8% de la taille de police globale */
-    }
+Copy code
+.content p {
+    font-size: 0.8em;
+    /* 8% de la taille de police globale */
+}
 
-    nav ul li a {
-        font-size: 0.5em;
-        /* 12% de la taille de police globale */
-    }
+nav ul li a {
+    font-size: none;
+    /*10% de la taille de police globale */
+}
 
-    .content a {
-        font-size: 0.5em;
-        /* 10% de la taille de police globale */
-    }
-    
-    nav .logo {
-    width: 150px;
-
+.content a {
+    font-size: 1em;
+    /* 10% de la taille de police globale */
 }
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    float: left;
-    position: relative;
-}
-
-nav a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-}
-
-nav ul ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    display: none;
-}
-
-nav li:hover > ul {
-    display: block;
-}
-
-nav ul ul li {
-    float: none;
-    width: 200px;
-}
-
-nav ul ul a {
-    padding: 10px;
-    color: white;
-}
-
-
-
-
-
-
-
-/*cODE SUIVANT POUR TEST BURGER a virer si besoin
-
-nav {
-    display: block;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        display: none;
-    }
-}
-
-nav.show {
-    display: block;
-}
-
-nav {
-    transition: all 0.5s ease-in-out;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 10px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .burger-btn {
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 999;
-        font-size: 24px;
-        padding: 10px 15px;
-        border: none;
-        background-color: #000;
-        color: #fff;
-        cursor: pointer;
-    }
-}
-
-*/
+/* Ajout de l'arrière-plan dégradé dans le footer */
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:  linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-    text-align: center;
-    background: linear-gradient(to right, #40E0D0, #7F00FF);
-  }
-  
-  @media (min-width: 768px)
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-    text-align: center;
-      background: linear-gradient(to right, #40E0D0, #7F00FF);
-  }
-  
-  footer h3 {
-    color: #00c9ff; /* bleu turquoise */
-  }
-  
-  footer ul {
-    color: #8a44e0; /* mauve */
-  }
-  
-  footer a {
-    color: #ff0000; /* rouge */
-  }
-  
-  footer .copyright {
-    color: #8a44e0; /* mauve */
-  }
-
-
+background: linear-gradient(to right, #40E0D0, #7F00FF);
+}
