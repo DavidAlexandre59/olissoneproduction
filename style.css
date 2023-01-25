@@ -174,7 +174,7 @@ content h1 {
 }
 
 /* styles pour smartphone */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .content h1 {
         font-size: 2em;
         /* 20% de la taille de police globale */
