@@ -256,7 +256,7 @@ footer {
     text-align: center;
   }
   
-  @media (min-width: 768px)
+  @media (min-width: 768px){}
 
   footer {
     position: fixed;
