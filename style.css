@@ -43,7 +43,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
     font-size: 17px;
 
 
