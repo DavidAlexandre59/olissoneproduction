@@ -175,7 +175,7 @@ content h1 {
 }
 
 /* styles pour smartphone */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 720px) {
     .content h1 {
         font-size: 2em;
         /* 20% de la taille de police globale */
@@ -329,7 +329,7 @@ nav {
    
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:720px){
     header{
         position: absolute;
     }
