@@ -45,7 +45,13 @@ nav ul li a {
     text-decoration: none;
     color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
     font-size: 17px;
-
+    
+border: 2px solid rgb(33, 5, 59);
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
 
 }
 
@@ -53,17 +59,7 @@ nav ul li a {
     text-align: center;
 }
 
-.ul {
-    
-    border: 2px solid rgb(33, 5, 59);
-    padding: 14px 70px;
-    border-radius: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
 
-
-}
 
 .content h1 {
    
