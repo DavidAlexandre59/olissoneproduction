@@ -393,14 +393,15 @@ nav {
    
 }
 
-@media only screen and (max-width:650px){
+
+@media only screen and (max-width:720px){
     header{
         position: absolute;
     }
 
     #icon-menu{
         visibility: visible;
-       background-color:rgb(190, 151, 20);
+       background-color:blue;
      
       
     }
@@ -413,10 +414,10 @@ nav {
         display:none;
         position: absolute;
         padding: 20px;
-        background: white;
-        right: 10px;
+        background: transparent;
+        right: 40px;
         top: 35px;
-        width: 35%;
+        width: 100%;
        
     }
     nav:hover ul {
@@ -429,6 +430,6 @@ nav {
         margin: 0;
     }
 li:hover{
-        color:rgb(190, 151, 20) ;
+        color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
 }
 }
