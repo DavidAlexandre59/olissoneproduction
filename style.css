@@ -51,22 +51,7 @@ nav ul li a {
 
 .content {
     text-align: center;
-    display: flex;
 }
-
-.img-container {
-    width: 25%;
-    margin-right: 10px;
-}
-
-.img-container img {
-    width: 100%;
-}
-
-.text-container {
-    width: 75%;
-}
-
 
 .content h1 {
    
@@ -216,35 +201,6 @@ content h1 {
 }
 }
 
-/* styles pour apple watch */
-@media screen and (max-width: 197px) {
-    .content h1 {
-        font-size: 0.1em;
-        /* 20% de la taille de police globale */
-    }
-
-    .content p {
-        font-size: 0.1em;
-        /* 8% de la taille de police globale */
-    }
-
-    nav ul li a {
-        font-size: 0.1em;
-        /* 12% de la taille de police globale */
-    }
-
-    .content a {
-        font-size: 1em;
-        /* 10% de la taille de police globale */
-    }
-    
-    nav .logo {
-    width: 20px;
-
-}
-}
-
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -291,57 +247,6 @@ nav ul ul a {
 
 
 
-/*cODE SUIVANT POUR TEST BURGER a virer si besoin
-nav {
-    display: block;
-}
-@media screen and (max-width: 600px) {
-    nav {
-        display: none;
-    }
-}
-nav.show {
-    display: block;
-}
-nav {
-    transition: all 0.5s ease-in-out;
-}
-@media screen and (max-width: 600px) {
-    nav {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    nav ul li {
-        margin: 10px;
-    }
-}
-@media screen and (max-width: 600px) {
-    .burger-btn {
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 999;
-        font-size: 24px;
-        padding: 10px 15px;
-        border: none;
-        background-color: #000;
-        color: #fff;
-        cursor: pointer;
-    }
-}
-*/
-
 footer {
     position: fixed;
     left: 0;
@@ -377,6 +282,7 @@ footer {
   footer .copyright {
     color: #8a44e0; /* mauve */
   }
+  
 
 
 
@@ -417,19 +323,19 @@ nav {
 
 #icon-menu{
     visibility: hidden;
-    width: 32px;
+    width: 32px;      
     height: 32px;
    
 }
 
-@media only screen and (max-width:720px){
+@media only screen and (max-width:650px){
     header{
         position: absolute;
     }
 
     #icon-menu{
         visibility: visible;
-       background-color:blue;
+       background-color:rgb(190, 151, 20);
      
       
     }
@@ -442,10 +348,10 @@ nav {
         display:none;
         position: absolute;
         padding: 20px;
-        background: transparent;
-        right: 40px;
+        background: white;
+        right: 10px;
         top: 35px;
-        width: 100%;
+        width: 35%;
        
     }
     nav:hover ul {
@@ -458,6 +364,6 @@ nav {
         margin: 0;
     }
 li:hover{
-        color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+        color:rgb(190, 151, 20) ;
 }
 }
