@@ -274,20 +274,19 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background:  linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    background-color: transparent;
     text-align: center;
   }
   
-  @media (min-width: 768px)
+  @media (min-width: 768px){}
 
   footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    background-color: transparent;
     text-align: center;
-   
   }
   
   footer h3 {
