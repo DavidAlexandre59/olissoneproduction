@@ -348,7 +348,7 @@ nav {
         display:none;
         position: absolute;
         padding: 20px;
-        background: white;
+        background: transparent;
         right: 10px;
         top: 35px;
         width: 35%;
