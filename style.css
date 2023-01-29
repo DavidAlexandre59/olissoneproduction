@@ -364,6 +364,5 @@ nav {
         margin: 0;
     }
 li:hover{
-        color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
-}
-}
+        color:blue
+}}
