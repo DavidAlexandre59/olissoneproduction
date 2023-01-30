@@ -196,7 +196,12 @@ content h1 {
     }
     
     nav .logo {
-    width: 150px;
+        width: 150px;}
+        
+        nav li:hover {
+  background-color: turquoise;
+  color: white;
+
 
 }
 }
@@ -360,7 +365,4 @@ nav li {
   padding: 15px 0;
   margin: 0;
 }
-nav li:hover {
-  background-color: turquoise;
-  color: white;
-}
+
