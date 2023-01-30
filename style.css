@@ -311,6 +311,7 @@ li:hover{
     
 }
 nav {
+    z-index: 5;
     float: right;
     padding: 15px;
 }
