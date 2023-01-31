@@ -137,7 +137,7 @@ content h1 {
 
     .content p {
         font-size: 1.6em;
-        color: #fff;
+        font-color: #fff;
         /* 12% de la taille de police globale */
     }
 
@@ -161,7 +161,7 @@ content h1 {
 
     .content p {
         font-size: 1em;
-        color: #fff;
+        font-color: #fff;
         /* 10% de la taille de police globale */
     }
 
@@ -185,7 +185,7 @@ content h1 {
 
     .content p {
         font-size: 0.8em;
-        color: #fff;
+        font-color: #fff;
         /* 8% de la taille de police globale */
     }
 
