@@ -400,36 +400,28 @@ nav {
     }
 
     #icon-menu{
-        visibility: visible;
-       background-color:blue;
-     
-      
-    }
-    #icon-menu:hover{
-        visibility: visible;
-       
-      
-    }
-    nav ul, nav:active ul {
-        display:none;
-        position: absolute;
-        padding: 20px;
-        background: transparent;
-        right: 40px;
-        top: 35px;
-        width: 100%;
-       
-    }
-    nav:hover ul {
-        display: block;
-    }
-    nav li {
-        text-align: center;
-        width: 100%;
-        padding: 15px 0;
-        margin: 0;
-    }
-li:hover{
-        color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+  visibility: visible;
+  background-color: transparent;
 }
+#icon-menu:hover{
+  visibility: visible;
+  background-color: violet;
+}
+nav ul, nav:active ul {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  background: violet;
+  right: 40px;
+  top: 100px;
+  width: 100%;
+}
+nav:hover ul {
+  display: block;
+}
+nav li {
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0;
 }
