@@ -187,12 +187,12 @@ content h1 {
     }
 
     nav ul li a {
-        font-size: 1.0em;
+        font-size: 1.4em;
         /* 12% de la taille de police globale */
     }
 
     .content a {
-        font-size: 0.6em;
+        font-size: 0.9em;
         /* 10% de la taille de police globale */
     }
     
