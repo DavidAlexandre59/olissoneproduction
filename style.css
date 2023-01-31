@@ -91,11 +91,12 @@ content h1 {
     text-decoration: none;
     display: inline-block;
     color: rgb(185, 174, 187);
-    font-size: 24px;
+    font-size: 20px;
     border: 2px solid rgb(33, 5, 59);
-    padding: 14px 70px;
+    padding: 10px 10px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
  
 
