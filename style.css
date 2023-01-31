@@ -199,8 +199,8 @@ content h1 {
         width: 150px;}
         
         nav li:hover {
-  background-color: turquoise;
-  color: purple;
+  background-color: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+  color: yellow;
 
 
 }
