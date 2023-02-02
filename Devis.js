@@ -12,6 +12,24 @@ function validateForm()
     }else{
         document.getElementById('errorname').innerHTML="";  
     }
+
+    if (prenom.value == "")                                  
+    { 
+        document.getElementById('errorprenom').innerHTML="Veuillez entrez un prénom valide";  
+        prenom.focus(); 
+        return false; 
+    }else{
+        document.getElementById('errorprenom').innerHTML="";  
+    }
+
+    if (tel.value == "")                                  
+    { 
+        document.getElementById('telfail').innerHTML="Veuillez entrez un téléphone valide";  
+        tel.focus(); 
+        return false; 
+    }else{
+        document.getElementById('telfail').innerHTML= "";  
+    }
        
     if (email.value == "")                                   
     { 
@@ -38,7 +56,7 @@ function validateForm()
    
     if (message.value == "")                           
     {
-        document.getElementById('errormsg').innerHTML="Veuillez entrez un message valide"; 
+        document.getElementById('errormsg').innerHTML="Veuillez entrez un besoin valide"; 
         message.focus(); 
         return false; 
     }else{

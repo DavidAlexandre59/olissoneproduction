@@ -75,7 +75,8 @@ h1{
   form{
     background: linear-gradient(90deg, #1714dc88, rgba(147, 33, 175, 0.568), rgba(29, 99, 190, 0.589));
     border-radius: 5%;
-    padding: 1%;
+    margin: auto;
+    padding-top: 1%;
     color: #fff;
   }
 
