@@ -178,26 +178,22 @@ content h1 {
 
 /* styles pour smartphone */
 @media screen and (max-width: 767px) {
-    .content h1 {
-        font-size: 2em;
-        /* 20% de la taille de police globale */
-    }
+   .content h1 {
+  font-size: 3em;
+}
 
-    .content p {
-        font-size: 0.8em;
-        font-color: #fff;
-        /* 8% de la taille de police globale */
-    }
+.content p {
+  font-size: 0.9em;
+  font-color: #fff;
+}
 
-    nav ul li a {
-        font-size: 1.4em;
-        /* 12% de la taille de police globale */
-    }
+nav ul li a {
+  font-size: 0.8em;
+}
 
-    .content a {
-        font-size: 0.9em;
-        /* 10% de la taille de police globale */
-    }
+.content a {
+  font-size: 1em;
+}
     
     nav .logo {
         width: 150px;}
