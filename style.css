@@ -163,7 +163,7 @@ content h1 {
 
     .content p {
         font-size: 1em;
-        font-color: #fff;
+        font-color: violet;
         /* 10% de la taille de police globale */
     }
 
