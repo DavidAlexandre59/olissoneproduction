@@ -361,7 +361,7 @@ nav ul, nav:active ul {
   display: none;
   position: absolute;
   padding: 20px;
-  background: violet;
+  background: linear-gradient(90deg, #1714dc6c, rgba(147, 33, 175, 0.452), rgba(29, 99, 190, 0.432));
   right: 40px;
   top: 100px;
   width: 100%;
