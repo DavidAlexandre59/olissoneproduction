@@ -205,11 +205,11 @@ content h1 {
         width: 150px;}
         
         nav li:hover {
-  background-color: rgb(147, 33, 175);
-  color: yellow;
-
-
-}
+            background-color: rgb(147, 33, 175);
+            color: yellow;
+          
+          
+          }
     .footer {
         font-size: 0.4;
     }
