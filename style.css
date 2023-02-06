@@ -322,8 +322,8 @@ li{
     padding: 10px;
 }
 li:hover{
-    background-color: rgb(255, 255, 255);
-    
+    background: linear-gradient(90deg, #1714dc88, rgba(147, 33, 175, 0.568), rgba(29, 99, 190, 0.589));
+    border-radius: 50%;
 }
 nav {
     z-index: 5;
