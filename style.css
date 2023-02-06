@@ -99,7 +99,7 @@ content h1 {
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 80px;
-    background: linear-gradient(90deg, #1714dc, rgb(147, 33, 175), rgb(29, 99, 190));
+    background: linear-gradient(90deg, #1714dc6c, rgba(147, 33, 175, 0.452), rgba(29, 99, 190, 0.432));
  
 
 }
