@@ -1,10 +1,9 @@
-img{
+.img-hero{
     height: 300px;
 }
 
-.grid-container{
+.costume-flex{
     display: flex;
-    margin-top: 5%;
 }
 
 .costume{
