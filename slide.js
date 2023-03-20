@@ -1,29 +1,17 @@
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-  // Masquer toutes les images sauf la première
-  $('.slideshow img:gt(0)').hide();
+// Définir les variables
+var images = ["01.jpg", "02.jpg", "04.jpg", "05.jpg", "06.jpg"];
+var currentImage = 0;
+var imageContainer = document.getElementById("slideshow");
 
-  // Définir l'interval de temps entre chaque transition
-  var interval = 2000; // 2 secondes
+// Fonction pour faire défiler les images
+function nextImage() {
+  currentImage++;
+  if (currentImage >= images.length) {
+    currentImage = 0;
+  }
+  imageContainer.src = "images/" + images[currentImage];
+}
 
-  // Commencer la boucle de diaporama
-  setInterval(function() {
-    // Obtenir l'image actuellement visible
-    var currentImg = $('.slideshow img:visible');
-
-    // Obtenir l'image suivante
-    var nextImg = currentImg.next();
-
-    // Si la dernière image est visible, passer à la première image
-    if (nextImg.length == 0) {
-      nextImg = $('.slideshow img:first');
-    }
-
-    // Faire un fondu enchaîné pour passer à l'image suivante
-    currentImg.fadeOut(1000);
-    nextImg.fadeIn(1000);
-  }, interval);
-});
-</script>
+// Faire défiler les images toutes les 2 secondes
+setInterval(nextImage, 2000);
