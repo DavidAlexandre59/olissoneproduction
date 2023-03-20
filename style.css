@@ -384,12 +384,9 @@ nav:hover ul {
   text-align: center;
 }
 
-  .marquee {
-  font-size: 40px; /* augmente la taille de 20% */
-  font-weight: bold;
+marquee {
   background-color: transparent;
- 
-  color: white; /* définit la couleur du texte en blanc */
+  color: white;
+  font-size: 30px;
   white-space: nowrap;
-  display: inline-block;
 }
