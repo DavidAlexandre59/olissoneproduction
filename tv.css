@@ -304,3 +304,17 @@ footer {
   footer .copyright {
     color: #8a44e0; /* mauve */
   }
+
+
+
+.slideshow {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.slideshow img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
