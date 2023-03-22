@@ -1,17 +1,9 @@
+let images = document.querySelectorAll('.slideshow img');
+let currentImage = 0;
+let slideInterval = setInterval(nextImage, 2000);
 
-// Définir les variables
-var images = ["01.jpg", "02.jpg", "04.jpg", "05.jpg", "06.jpg"];
-var currentImage = 0;
-var imageContainer = document.getElementById("slideshow");
-
-// Fonction pour faire défiler les images
 function nextImage() {
-  currentImage++;
-  if (currentImage >= images.length) {
-    currentImage = 0;
-  }
-  imageContainer.src = "images/" + images[currentImage];
+    images[currentImage].classList.remove('active');
+    currentImage = (currentImage + 1) % images.length;
+    images[currentImage].classList.add('active');
 }
-
-// Faire défiler les images toutes les 2 secondes
-setInterval(nextImage, 2000);
