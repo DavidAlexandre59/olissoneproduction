@@ -402,5 +402,22 @@ marquee {
   max-width: 18%;
   height: auto;
   margin-right: 20px;
-}
+animation: slideshow 10s infinite;
+    }
     
+    
+ 
+@keyframes slideshow {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
