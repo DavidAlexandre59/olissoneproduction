@@ -306,15 +306,23 @@ footer {
   }
 
 
-
 .slideshow {
-  display: flex;
-  justify-content: center;
-  margin: 30px auto;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
 }
 
 .slideshow img {
-  max-width: 18%;
-  height: auto;
-  margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow img.active {
+    opacity: 1;
 }
