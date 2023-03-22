@@ -392,3 +392,15 @@ marquee {
  
 }
     
+    .slideshow {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.slideshow img {
+  max-width: 18%;
+  height: auto;
+  margin-right: 20px;
+}
+    
