@@ -140,7 +140,7 @@ content h1 {
 /* styles pour ordinateur */
 @media screen and (min-width: 1024px) {
     .content h1 {
-        font-size: 5.5em;
+        font-size: 5.0em;
         /* 35% de la taille de police globale */
     }
 
