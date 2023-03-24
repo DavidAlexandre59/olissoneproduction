@@ -405,3 +405,16 @@ marquee {
 
     }
     
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-container {
+  flex-basis: 40%;
+}
+
+.text-container {
+  flex-basis: 50%;
+}
