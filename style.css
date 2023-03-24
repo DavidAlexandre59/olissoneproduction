@@ -164,7 +164,7 @@ content h1 {
 /* styles pour tablette */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .content h1 {
-        font-size: 2.5em;
+        font-size: 2.5em; 
         /* 25% de la taille de police globale */
     }
 
